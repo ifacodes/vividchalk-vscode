@@ -13,14 +13,14 @@
             "scope": ["comment", "punctuation.definition.comment"],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#546E7A"
+                "foreground": "#9933CC"
             }
         },
         {
             "name": "Variables",
             "scope": ["variable", "string constant.other.placeholder"],
             "settings": {
-                "foreground": "#EEFFFF"
+                "foreground": "#FFFFFF"
             }
         },
         {
@@ -34,14 +34,14 @@
             "name": "Invalid",
             "scope": ["invalid", "invalid.illegal"],
             "settings": {
-                "foreground": "#FF5370"
+                "foreground": "#FF0000"
             }
         },
         {
             "name": "Keyword, Storage",
             "scope": ["keyword", "storage.type", "storage.modifier"],
             "settings": {
-                "foreground": "#C792EA"
+                "foreground": "#FF6600"
             }
         },
         {
@@ -61,7 +61,7 @@
                 "keyword.other.substitution"
             ],
             "settings": {
-                "foreground": "#89DDFF"
+                "foreground": "#FFCC00"
             }
         },
         {
@@ -72,7 +72,7 @@
                 "markup.deleted.git_gutter"
             ],
             "settings": {
-                "foreground": "#f07178"
+                "foreground": "#FFCC00"
             }
         },
         {
@@ -85,21 +85,27 @@
                 "keyword.other.special-method"
             ],
             "settings": {
-                "foreground": "#82AAFF"
+                "foreground": "#FFFFFF"
             }
         },
         {
             "name": "Block Level Variables",
-            "scope": ["meta.block variable.other"],
+            "scope": ["meta.block"],
             "settings": {
-                "foreground": "#f07178"
+                "foreground": "#FFFFFF"
+            }
+        },
+        {
+            "scope": ["variable.other.property"],
+            "settings": {
+                "foreground": "#AAAA77"
             }
         },
         {
             "name": "Other Variable, String Link",
             "scope": ["support.other.variable", "string.other.link"],
             "settings": {
-                "foreground": "#f07178"
+                "foreground": "#FFFFFF"
             }
         },
         {
@@ -115,13 +121,24 @@
                 "keyword.other"
             ],
             "settings": {
-                "foreground": "#F78C6C"
+                "foreground": "#339999"
             }
         },
         {
-            "name": "String, Symbols, Inherited Class, Markup Heading",
+            "name": "String",
             "scope": [
                 "string",
+                "punctuation.definition.string.begin",
+                "punctuation.definition.string.end",
+                "variable.other.readwrite.alias"
+            ],
+            "settings": {
+                "foreground": "#66FF00"
+            }
+        },
+        {
+            "name": "Symbols, Inherited Class, Markup Heading",
+            "scope": [
                 "constant.other.symbol",
                 "constant.other.key",
                 "entity.other.inherited-class",
@@ -130,7 +147,7 @@
                 "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
             ],
             "settings": {
-                "foreground": "#C3E88D"
+                "foreground": "#339999"
             }
         },
         {
@@ -146,14 +163,14 @@
                 "support.type.sys-types"
             ],
             "settings": {
-                "foreground": "#FFCB6B"
+                "foreground": "#FFCC00"
             }
         },
         {
             "name": "Entity Types",
             "scope": ["support.type"],
             "settings": {
-                "foreground": "#B2CCD6"
+                "foreground": "#AAAA77"
             }
         },
         {
@@ -167,7 +184,7 @@
                 "source.postcss support.type.property-name"
             ],
             "settings": {
-                "foreground": "#B2CCD6"
+                "foreground": "#AAAA77"
             }
         },
         {
@@ -186,7 +203,7 @@
             "scope": ["variable.language"],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#FF5370"
+                "foreground": "#FFCC00"
             }
         },
         {
@@ -211,7 +228,7 @@
             "name": "Attributes",
             "scope": ["entity.other.attribute-name"],
             "settings": {
-                "foreground": "#C792EA"
+                "foreground": "#FFFFFF"
             }
         },
         {
