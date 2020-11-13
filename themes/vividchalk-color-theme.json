@@ -4,8 +4,37 @@
     "colors": {
         "editor.background": "#0A070D",
         "editor.foreground": "#eeffff",
-        "activityBarBadge.background": "#007acc",
-        "sideBarTitle.foreground": "#bbbbbb"
+        "editorLineNumber.foreground": "#DEF",
+
+        "activityBar.inactiveForeground": "#abe",
+        "activityBar.background": "#444444",
+        "activityBar.foreground": "#def",
+        "activityBarBadge.background": "#FFCC00",
+        "activityBarBadge.foreground": "#0e0e0e",
+
+        "sideBar.background": "#0A070D",
+        "sideBar.foreground": "#eeffff",
+        "sideBar.border": "#808080",
+        "sideBarTitle.foreground": "#eeffff",
+
+        "textLink.foreground": "#FF6600",
+
+        "button.background": "#FFCC00",
+        "button.foreground": "#000000",
+
+        "dropdown.border": "#808080",
+        "dropdown.background": "#0A070D",
+        "dropdown.foreground": "#eeffff",
+
+        "panel.background": "#0A070D",
+
+        "list.hoverBackground": "#ff0000",
+
+        "gitDecoration.modifiedResourceForeground": "#FF6600",
+
+        "statusBar.background": "#444444",
+        "statusBar.foreground": "#abe",
+        "statusBarItem.remoteBackground": "#FFCC00"
     },
     "tokenColors": [
         {
