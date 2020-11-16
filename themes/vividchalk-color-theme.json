@@ -2,6 +2,10 @@
     "name": "vividchalk",
     "type": "dark",
     "colors": {
+
+        "titleBar.activeBackground": "#165555",
+        "titleBar.activeForeground": "#eeffff",
+
         "editor.background": "#0A070D",
         "editor.foreground": "#eeffff",
         "editorLineNumber.foreground": "#DEF",
@@ -28,7 +32,7 @@
 
         "panel.background": "#0A070D",
 
-        "list.hoverBackground": "#ff0000",
+        "list.hoverBackground": "#165555",
 
         "gitDecoration.modifiedResourceForeground": "#FF6600",
 
