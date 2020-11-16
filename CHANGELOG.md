@@ -11,3 +11,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.2.0]
 
 -   Added Gui Colour Scheme
+
+## [0.3.0]
+
+-   Added titleBar.activeBackground and fixed list.hoverBackground
